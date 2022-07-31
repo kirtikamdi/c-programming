@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <ctype.h>
+int main()
+{
+    char ch;
+    printf("enter character:");
+    scanf("%c", &ch);
+if (isdigit(ch))
+{
+     printf("character is digit");
+}
+else
+{
+    printf("character id no digit");
+}
+return 0;
